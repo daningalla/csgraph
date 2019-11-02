@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <RootNamespace />
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>csgraph</ToolCommandName>
+        <PackageId>vertical-csgraph</PackageId>
+        <PackageVersion>1.0.1</PackageVersion>
+        <PackageTags>commandline;utilities</PackageTags>
+        <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+        <Title>vertical-csgraph</Title>
+        <Copyright>Copyright (C) 2019 Vertical Software</Copyright>
+        <LangVersion>8.0</LangVersion>        
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="vertical-commandline" Version="1.0.2" />
+    </ItemGroup>
+
+</Project>
